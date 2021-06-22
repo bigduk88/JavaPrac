@@ -1,0 +1,26 @@
+package com.javaprac.programersBasic;
+
+public class OperatorExam5 {
+    public static void main(String[] args) {
+        boolean b1 = true;
+        boolean b2 = false;
+        boolean b3 = true;
+
+        System.out.println(b1 && b2);
+        System.out.println(b1 && b3); // 논리 곱
+        System.out.println(b1 || b2); // 논리 합
+        System.out.println(b1 || b3);
+        System.out.println(b2 || b2);
+
+        int score = 68;
+        if (score <= 100 && score >= 70) {
+            System.out.println("성공");
+        } else {
+            System.out.println("실패");
+        }
+
+        System.out.println(b1 ^ b3); // 익스쿠르시브 or = 두 개가 다를 때 true 를 리턴함.
+        System.out.println(b1 ^ b2);
+        System.out.println(!b1);
+    }
+}
