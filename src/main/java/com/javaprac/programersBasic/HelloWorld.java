@@ -1,6 +1,6 @@
 package com.javaprac.programersBasic;
 
-public class helloWorld {
+public class HelloWorld {
     // 프로그램의 시작점. 구현주석. 단축키 커맨드 /
 
     /**
