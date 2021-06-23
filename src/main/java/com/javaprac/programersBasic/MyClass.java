@@ -33,7 +33,7 @@ public class MyClass {
 
     // 매개변수를 받고 리턴하는 경우
     public int method5(int y) {
-        System.out.println(x + "를 이용한 m5실행...");
+        System.out.println(y + "를 이용한 m5실행...");
 
         return y * 2;
     }
