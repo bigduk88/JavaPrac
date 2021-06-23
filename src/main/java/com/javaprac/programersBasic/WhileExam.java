@@ -1,5 +1,6 @@
 package com.javaprac.programersBasic;
 
+// while문은 조건이 맞지 않으면 한 번도 실행되지 않을 수 있다.
 public class WhileExam {
     public static void main(String[] args) {
 //        int i = 0;
