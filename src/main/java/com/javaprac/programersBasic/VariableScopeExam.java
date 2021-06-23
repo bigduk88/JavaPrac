@@ -35,5 +35,10 @@ public class VariableScopeExam {
         v2.globalScope = 20;
         System.out.println(v1.globalScope);
         System.out.println(v2.globalScope);
+        v1.staticVal = 50;
+        v2.staticVal = 100;
+        System.out.println(v1.staticVal);
+        System.out.println(v2.staticVal);
+        System.out.println(VariableScopeExam.staticVal);
     }
 }
