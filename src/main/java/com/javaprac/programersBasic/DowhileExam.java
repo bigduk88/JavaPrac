@@ -2,7 +2,7 @@ package com.javaprac.programersBasic;
 
 import java.util.Scanner;
 
-// Dowhile문은 조건이 맞지 않아도 한 번은 실행된다.
+// Do while문은 조건이 맞지 않아도 한 번은 실행된다.
 public class DowhileExam {
     public static void main(String[] args) {
         int value = 0;
