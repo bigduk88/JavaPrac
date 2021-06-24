@@ -6,6 +6,10 @@ public class Car {
     String name;
     int number;
 
+    public void run() {
+        System.out.println("달리다");
+    }
+
     public Car(String nanme) {
         this.name = name;
     }
