@@ -6,4 +6,7 @@ public class Car {
     String name;
     int number;
 
+    public Car(String nanme) {
+        this.name = name;
+    }
 }
