@@ -6,7 +6,7 @@ public class MethodOverLoadExam {
 
         System.out.println(m.plus(4, 5));
         System.out.println(m.plus(4,6,7));
-        System.out.println(m.plus("hello ", "world"));
+        System.out.println(m.plus("Hello ", "world"));
 
     }
 }

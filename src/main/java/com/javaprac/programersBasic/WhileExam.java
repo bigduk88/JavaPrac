@@ -19,7 +19,7 @@ public class WhileExam {
 
         // 무한 루프를 사용하고 싶을 때.
         while (true) {
-            System.out.println("hello");
+            System.out.println("Hello");
         }
     }
 }
