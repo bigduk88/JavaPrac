@@ -5,7 +5,7 @@ public class BusExam3 {
         Car3 c = new Bus3();
         c.run();
 
-        Bus3 bus3 = new Bus3();
+        Bus3 bus3 = (Bus3) c;
         bus3.run();
         bus3.ppangppang();
     }
