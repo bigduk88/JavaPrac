@@ -1,5 +1,5 @@
 package com.javaprac.programersBasic;
-// 내부클래스3 지역중첩 클래스 도는 지역 클래스
+// 내부클래스3 지역중첩 클래스 또는 지역 클래스
 public class InnerExam3 {
     public void exec() {
         class Cal {
