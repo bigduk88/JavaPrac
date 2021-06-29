@@ -13,6 +13,6 @@ public class MathExam {
 
         System.out.println(Math.random());
         System.out.println(Math.sqrt(25));
-
+         
     }
 }
