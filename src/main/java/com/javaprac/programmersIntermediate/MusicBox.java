@@ -25,9 +25,11 @@ public class MusicBox {
         }
     }
 
-    public synchronized void playMusicC() {
+    public void playMusicC() {
         for (int i = 0; i < 10; i++) {
-            System.out.println("카페 음악!!!");
+            synchronized (this) {
+                System.out.println("카페 음악!!!");
+            }
 
             try {
                 Thread.sleep((int) (Math.random() * 1000));
